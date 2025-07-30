@@ -3,10 +3,6 @@
 
 }
 
-/* .firstdiv {
-    justify-content: center;
-} */
-
 .profileimage {
     border-radius: 200px;
     width: 100px;
@@ -73,11 +69,9 @@
     .bootom {
         display: flex;
         background-color: black;
-        margin-top: 146px;
-        /* padding-top:  20px; */
+        margin-top: 246px;
         width: 386px;
         height: 85px;
-        /* margin-right: 90px; */
         border-radius: 20px;
         border: solid rgb(182, 212, 44) 5px;
     }
