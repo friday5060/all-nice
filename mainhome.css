@@ -1,0 +1,106 @@
+.nav{
+    display: flex;
+
+}
+
+/* .firstdiv {
+    justify-content: center;
+} */
+
+.profileimage {
+    border-radius: 200px;
+    width: 100px;
+    height: 100px;
+    margin-top: 15px;
+    border: solid rgb(182, 212, 44) 7px ;
+}
+.payment{
+    background-color: black;
+    border-radius: 50px;
+
+}
+
+.amount{
+    color: white;
+    margin-top: 0px;
+    padding-top: 30px;
+
+} 
+.notification{
+    margin-left: 260px;
+}
+
+
+@media(max-width:760px) {
+  .trade{
+    border-radius: 20px;
+    background-color: black;
+    width: 100px;
+    height: 100px;
+    color: rgb(201, 230, 41);
+    
+
+
+  }
+
+
+
+    .notification{
+        background-color: rgb(206, 199, 199);
+        color: rgb(19, 18, 18);
+        margin-left: 210px;
+        height: 50px;
+        width: 50px;
+        margin-top: 60px;
+        border-radius: 50px;
+        text-align: center;
+
+    }
+
+    .amount{
+        color: white;
+        margin-left: 30px;
+        padding-top: 50px;
+
+    }
+
+    .amount1{
+        color: white;
+        padding-top: 12px;
+        margin-left: 20px;
+        /* padding-top: 40px; */
+        color:  rgb(182, 212, 44);
+        height: 40px;
+        width: 155px;
+        text-align: center;
+        border-radius: 20px;
+
+    }
+
+    .payment{
+        /* background-color: black; */
+        border-radius: 50px;
+        height: 200px;
+        width: 320px;
+        margin-left: 40px;
+        margin-top: 80px;
+        justify-items: centerk;
+        
+    }
+
+    .profileimage {
+        border-radius: 300px;
+        width: 100px;
+        height: 100px;
+        margin-top: 29px;
+        margin-left: 23px;
+        border: solid rgb(182, 212, 44) 5px ;
+    }
+    .name{
+        /* margin-bottom: 5px; */
+        margin-left: 20px;
+
+
+    }
+
+}
