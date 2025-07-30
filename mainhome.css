@@ -1,4 +1,4 @@
-.nav{
+.nav {
     display: flex;
 
 }
@@ -12,40 +12,138 @@
     width: 100px;
     height: 100px;
     margin-top: 15px;
-    border: solid rgb(182, 212, 44) 7px ;
+    border: solid rgb(182, 212, 44) 7px;
 }
-.payment{
+
+.payment {
     background-color: black;
     border-radius: 50px;
 
 }
 
-.amount{
+.amount {
     color: white;
     margin-top: 0px;
     padding-top: 30px;
 
-} 
-.notification{
+}
+
+.notification {
     margin-left: 260px;
 }
 
 
 @media(max-width:760px) {
-  .trade{
-    border-radius: 20px;
-    background-color: black;
-    width: 100px;
-    height: 100px;
-    color: rgb(201, 230, 41);
-    
-
-
-  }
 
 
 
-    .notification{
+
+
+
+
+    .tradebox {
+        display: flex;
+        justify-content: center;
+        padding-top: 60px;
+    }
+
+    .tradegiftcard {
+        background: black;
+        height: 60px;
+        width: 120px;
+        color: rgb(182, 212, 44);
+        margin-left: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid rgb(182, 212, 44) 5px;
+
+
+
+    }
+
+    .tradebitcoins {
+        background: black;
+        height: 60px;
+        width: 120px;
+        color: rgb(182, 212, 44);
+        margin-right: 20px;
+        text-align: center;
+        border-radius: 10px;
+        border: solid rgb(182, 212, 44) 5px;
+
+
+
+    }
+
+    .bootom {
+        display: flex;
+        background-color: black;
+        margin-top: 246px;
+        /* padding-top:  20px; */
+        width: 386px;
+        height: 85px;
+        /* margin-right: 90px; */
+        border-radius: 20px;
+        border: solid rgb(182, 212, 44) 5px;
+    }
+
+    .paybill {
+        color: wheat;
+        margin-left: 8px;
+        background-color: black;
+        height: 27px;
+        width: 95px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .paybill1 {
+        margin-top: 7px;
+    }
+
+    .wallet {
+        color: wheat;
+        margin-left: 35px;
+        background-color: black;
+        height: 45px;
+        width: 95px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .wallet1 {
+        margin-top: 7px;
+    }
+
+    .profile {
+        color: wheat;
+        margin-left: 55px;
+        background-color: black;
+        height: 45px;
+        width: 95px;
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .profile1 {
+        margin-top: 7px;
+    }
+
+
+
+
+
+    .trade {
+        border-radius: 20px;
+        background-color: black;
+        width: 100px;
+        height: 100px;
+        color: rgb(201, 230, 41);
+    }
+
+
+
+    .notification {
         background-color: rgb(206, 199, 199);
         color: rgb(19, 18, 18);
         margin-left: 210px;
@@ -57,19 +155,19 @@
 
     }
 
-    .amount{
+    .amount {
         color: white;
         margin-left: 30px;
         padding-top: 50px;
 
     }
 
-    .amount1{
+    .amount1 {
         color: white;
         padding-top: 12px;
         margin-left: 20px;
         /* padding-top: 40px; */
-        color:  rgb(182, 212, 44);
+        color: rgb(182, 212, 44);
         height: 40px;
         width: 155px;
         text-align: center;
@@ -77,7 +175,7 @@
 
     }
 
-    .payment{
+    .payment {
         /* background-color: black; */
         border-radius: 50px;
         height: 200px;
@@ -85,7 +183,7 @@
         margin-left: 40px;
         margin-top: 80px;
         justify-items: centerk;
-        
+
     }
 
     .profileimage {
@@ -94,13 +192,22 @@
         height: 100px;
         margin-top: 29px;
         margin-left: 23px;
-        border: solid rgb(182, 212, 44) 5px ;
+        border: solid rgb(182, 212, 44) 5px;
     }
-    .name{
+
+    .name {
         /* margin-bottom: 5px; */
         margin-left: 20px;
 
 
+    }
+
+    .naira {
+        color: white;
+    }
+
+    .nairadiv {
+        display: flex;
     }
 
 }
