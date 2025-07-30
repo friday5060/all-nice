@@ -166,12 +166,12 @@
     }
 
     .payment {
-        /* background-color: black; */
+        background-color: black;
         border-radius: 50px;
         height: 200px;
-        width: 320px;
+        width: 300px;
         margin-left: 40px;
-        margin-top: 65px;
+        margin-top: 75px;
         justify-items: centerk;
 
     }
