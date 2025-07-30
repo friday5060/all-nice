@@ -69,11 +69,12 @@
     .bootom {
         display: flex;
         background-color: black;
-        margin-top: 100px;
+        margin-top: 50px;
         width: 386px;
         height: 85px;
         border-radius: 20px;
         border: solid rgb(182, 212, 44) 5px;
+        margin-left: 10px;
     }
 
     .paybill {
