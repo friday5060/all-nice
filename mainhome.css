@@ -72,7 +72,9 @@
         margin-top: 130px;
         width: 386px;
         height: 85px;
-        border-radius: 20px;
+/*         border-radius: 20px; */
+         border-top-left-radius: 50px;
+         border-top-right-radius: 50px;
         border: solid rgb(182, 212, 44) 5px;
         margin-right: 10px;
     }
@@ -201,3 +203,4 @@
     }
 
 }
+
